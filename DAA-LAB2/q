@@ -1,0 +1,27 @@
+public int[] Shuffle(int[] a)
+    {
+
+        //check if the array has duplicates
+        for (int i = 0; i < a.Length; i++)
+        {
+            int curValue = random.Next(a.Length);
+            if(a.Contains(curValue))
+            {
+                curValue = random.Next(a.Length);
+            }
+            else
+            {
+                a[i] = curValue;
+            }
+        }
+
+        for (int i = 0; i < a.Length; i++)
+        {
+            int r = random.Next(a.Length);
+            int t = a[r];
+            a[r] = a[i];
+            a[i] = t;
+        }
+
+        return a;
+    }
