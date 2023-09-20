@@ -4,7 +4,8 @@
         "Q1.C": "cpp",
         "Q1_B.C": "cpp",
         "Q1_A.C": "cpp",
-        "Q2.C": "cpp"
+        "Q2.C": "cpp",
+        "random": "c"
     },
     "liveServer.settings.port": 5501
 }

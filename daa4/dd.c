@@ -79,7 +79,7 @@ void random()
 void ascending()
 {
     clock_t start,end;
-    int i,j,min,p;
+    int i,j,p;
     int n;
     printf("enter the n:");
     scanf("%d",&n);

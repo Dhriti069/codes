@@ -1,3 +1,5 @@
+//assign values to  each number of following structure
+
 #include <stdio.h>
 #include <string.h>
  

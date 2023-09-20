@@ -1,3 +1,5 @@
+//swap content of 2 variables using pointer
+
 #include<stdio.h>
 #include<conio.h>
     
