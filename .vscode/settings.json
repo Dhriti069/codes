@@ -5,7 +5,11 @@
         "Q1_B.C": "cpp",
         "Q1_A.C": "cpp",
         "Q2.C": "cpp",
-        "random": "c"
+        "random": "c",
+        "*.rmd": "markdown",
+        "iostream": "cpp",
+        "cmath": "cpp",
+        "complex": "cpp"
     },
     "liveServer.settings.port": 5501
 }
